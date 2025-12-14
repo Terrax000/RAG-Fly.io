@@ -1,0 +1,13 @@
+app = "rag-fly-io-stirling"
+
+primary_region = "cdg"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+
+  [[http_service.checks]]
+    interval = "10s"
+    timeout = "2s"
+    method = "GET"
+    path = "/"
