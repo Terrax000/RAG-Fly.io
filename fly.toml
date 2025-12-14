@@ -19,6 +19,7 @@ primary_region = 'cdg'
 [env]
   SERVER_ADDRESS = "0.0.0.0"
   SERVER_PORT = "8080"
+  JAVA_TOOL_OPTIONS = "-Dserver.address=0.0.0.0 -Dserver.port=8080"
 
   
 [[vm]]
