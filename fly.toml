@@ -12,6 +12,9 @@ primary_region = "cdg"
 [env]
   PORT = "8080"
   JAVA_TOOL_OPTIONS = "-Djava.net.preferIPv4Stack=true"
+  SERVER_FORWARD_HEADERS_STRATEGY = "framework"
+  SERVER_USEFORWARDEDHEADERS = "true"
+
 
 
 [[vm]]
