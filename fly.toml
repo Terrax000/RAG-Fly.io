@@ -11,6 +11,8 @@ primary_region = "cdg"
 
 [env]
   PORT = "8080"
+  JAVA_TOOL_OPTIONS = "-Djava.net.preferIPv4Stack=true"
+
 
 [[vm]]
   memory = "2gb"
